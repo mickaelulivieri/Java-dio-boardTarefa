@@ -1,5 +1,6 @@
 package br.com.service;
 
+import br.com.dto.BoardDetailsDTO;
 import br.com.persistence.dao.BoardColumnDAO;
 import br.com.persistence.dao.BoardDAO;
 import br.com.persistence.entity.BoardEntity;

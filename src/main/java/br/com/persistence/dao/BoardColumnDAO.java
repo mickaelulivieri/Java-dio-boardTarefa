@@ -1,5 +1,6 @@
 package br.com.persistence.dao;
 
+import br.com.dto.BoardColumnDTO;
 import br.com.persistence.entity.BoardColumnEntity;
 import br.com.persistence.entity.CardEntity;
 import com.mysql.cj.jdbc.StatementImpl;

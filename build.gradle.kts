@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("org.liquibase.gradle") version "2.2.0"
 }
 
 group = "org.example"

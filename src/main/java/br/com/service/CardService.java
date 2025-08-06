@@ -1,6 +1,10 @@
 package br.com.service;
 
 import br.com.dto.BoardColumnInfoDTO;
+import br.com.exception.CardBlockedException;
+import br.com.exception.CardFinishedException;
+import br.com.exception.EntityNotFoundException;
+import br.com.persistence.dao.BlockDAO;
 import br.com.persistence.dao.CardDAO;
 import br.com.persistence.entity.CardEntity;
 import lombok.AllArgsConstructor;
@@ -9,6 +13,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
+import static br.com.persistence.entity.BoardColumnKindEnum.CANCEL;
 import static br.com.persistence.entity.BoardColumnKindEnum.FINAL;
 
 @AllArgsConstructor

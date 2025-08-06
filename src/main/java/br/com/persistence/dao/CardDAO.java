@@ -7,8 +7,6 @@ import lombok.AllArgsConstructor;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.time.OffsetDateTime;
 import java.util.Optional;
 
 import static br.com.persistence.converter.OffsetDateTimeConverter.toOffsetDateTime;
@@ -86,7 +84,5 @@ public class CardDAO {
         }
         return Optional.empty();
     }
-
-
 
 }

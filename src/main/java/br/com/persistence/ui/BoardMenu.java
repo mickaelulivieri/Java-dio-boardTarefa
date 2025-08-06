@@ -1,11 +1,13 @@
 package br.com.persistence.ui;
 
+import br.com.dto.BoardColumnInfoDTO;
 import br.com.persistence.entity.BoardColumnEntity;
 import br.com.persistence.entity.BoardEntity;
 import br.com.persistence.entity.CardEntity;
 import br.com.service.BoardColumnQueryService;
 import br.com.service.BoardQueryService;
 import br.com.service.CardQueryService;
+import br.com.service.CardService;
 import lombok.AllArgsConstructor;
 
 import java.sql.SQLException;

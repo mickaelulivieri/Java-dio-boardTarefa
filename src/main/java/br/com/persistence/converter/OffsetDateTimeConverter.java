@@ -2,7 +2,7 @@ package br.com.persistence.converter;
 
 import lombok.NoArgsConstructor;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
 import java.time.OffsetDateTime;
 
 import static java.time.ZoneOffset.UTC;
